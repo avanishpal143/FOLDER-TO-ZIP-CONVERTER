@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File & Folder to ZIP Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Convert files and folders to ZIP easily and quickly with our online tool. Supports various formats including RAR to ZIP, PDF to ZIP, and more.">
+</head>
+<body>
+    <header>
+        <nav>
+           <img src="logo.png" alt="">
+           <!-- <h3 class="name">File2zip</h3> -->
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1 class="hea">Convert Files and Folders to ZIP</h1>
+            <button id="upload-files-btn">Upload Files</button>
+            <button id="upload-folders-btn">Upload Folders</button>
+        </section>
+        
+        <section class="upload-section">
+            <input type="file" id="file-input" multiple style="display: none;">
+            <input type="file" id="folder-input" webkitdirectory directory style="display: none;">
+            <div id="progress"></div>
+            <div id="status"></div>
+            <div class="fil">
+                <input type="text" id="filename-input" placeholder="Enter file name" style="display: none;">
+            <button id="download-btn" style="display: none;">Download ZIP</button>
+            <button id="reset-btn" style="display: none;">Reset</button>
+            </div>
+        </section>
+
+       <section class="features" id="features">
+            <h2 class="feat">Features</h2>
+            <article>
+                <h3>File into ZIP</h3>
+                <p>Our tool allows you to easily convert any file into a ZIP format. Whether you need to compress documents, images, or any other file type, our service ensures fast and efficient conversion. Learn more about how to <a href="/file-to-zip">convert files into ZIP</a>.</p>
+            </article>
+            <article>
+                <h3>RAR into ZIP</h3>
+                <p>Converting RAR files into ZIP format is straightforward with our converter. ZIP files are more universally supported, making it easier to share and manage your archives. Discover the steps to <a href="/rar-to-zip">convert RAR to ZIP</a> seamlessly.</p>
+            </article>
+            <article>
+                <h3>Compress Folder into ZIP</h3>
+                <p>Compress entire folders into a single ZIP file to save space and simplify file sharing. Our tool supports folder compression, ensuring that all files and subfolders are neatly packed into a single archive. Find out how to <a href="/compress-folder-zip">compress folders into ZIP files</a>.</p>
+            </article>
+            <article>
+                <h3>Compress Folder into ZIP File</h3>
+                <p>Our online tool helps you compress folders into ZIP files, making it easy to organize and store your data. This is particularly useful for backing up important files or sending large amounts of data. Learn the best practices for <a href="/compress-folder-zip-file">compressing folders into ZIP files</a>.</p>
+            </article>
+            <article>
+                <h3>Compress into ZIP</h3>
+                <p>Compress multiple files into a single ZIP archive for better file management and transfer. Our tool supports various file formats, ensuring efficient compression. Understand how to <a href="/compress-into-zip">compress files into ZIP</a> effectively.</p>
+            </article>
+            <article>
+                <h3>Convert RAR into ZIP</h3>
+                <p>Need to convert RAR files to ZIP? Our converter handles this task efficiently, ensuring your files remain intact and easily accessible. Explore the advantages and methods of <a href="/convert-rar-to-zip">converting RAR into ZIP</a>.</p>
+            </article>
+            <article>
+                <h3>ZIP into PDF</h3>
+                <p>Convert ZIP files into PDF format for easy viewing and sharing. This feature is particularly useful for archiving documents in a readable format. Learn how to <a href="/zip-to-pdf">convert ZIP into PDF</a> effortlessly.</p>
+            </article>
+            <article>
+                <h3>Convert File into ZIP</h3>
+                <p>Whether you’re working with documents, images, or other file types, converting them into ZIP format can help save space and simplify storage. Discover how to <a href="/convert-file-to-zip">convert files into ZIP</a> easily.</p>
+            </article>
+            <article>
+                <h3>Converting into ZIP File</h3>
+                <p>Our tool provides a simple way to convert various file formats into ZIP files. This process helps in efficient storage and management of files. Understand the process of <a href="/converting-into-zip-file">converting files into ZIP</a> with ease.</p>
+            </article>
+            <article>
+                <h3>How to Turn a ZIP File into a PDF</h3>
+                <p>Convert your ZIP files into PDF format for easy distribution and readability. This feature is ideal for creating easy-to-read archives. Learn the steps to <a href="/how-to-turn-zip-into-pdf">convert ZIP files into PDF</a>.</p>
+            </article>
+            <article>
+                <h3>How to Convert ZIP File into PDF</h3>
+                <p>Need to convert a ZIP file into a PDF? Our tool makes this process straightforward, ensuring your files are accessible and easy to share. Explore how to <a href="/how-to-convert-zip-into-pdf">convert ZIP files into PDF</a>.</p>
+            </article>
+            <article>
+                <h3>Convert ZIP into PDF</h3>
+                <p>Transform your ZIP archives into PDF files effortlessly. This feature is perfect for sharing and viewing compressed files. Find out more about <a href="/convert-zip-into-pdf">converting ZIP into PDF</a>.</p>
+            </article>
+            <article>
+                <h3>How to Convert a ZIP File into a PDF</h3>
+                <p>Our tool simplifies the process of converting ZIP files into PDF documents, making them easy to read and share. Learn the process to <a href="/how-to-convert-zip-file-into-pdf">convert ZIP files into PDF</a>.</p>
+            </article>
+            <article>
+                <h3>How to Turn RAR Files into ZIP</h3>
+                <p>Converting RAR files into ZIP is simple with our tool. ZIP files offer greater compatibility and ease of use. Discover the steps to <a href="/how-to-turn-rar-files-into-zip">turn RAR files into ZIP</a>.</p>
+            </article>
+            <article>
+                <h3>How to Turn RAR into ZIP</h3>
+                <p>Make your RAR files more accessible by converting them into ZIP format. Our tool ensures quick and reliable conversion. Learn how to <a href="/how-to-turn-rar-into-zip">turn RAR into ZIP</a> effectively.</p>
+            </article>
+            <article>
+                <h3>How to Change RAR into ZIP</h3>
+                <p>Changing RAR files into ZIP format is easy and efficient with our converter. This ensures better file management and sharing capabilities. Explore the process of <a href="/how-to-change-rar-into-zip">changing RAR into ZIP</a>.</p>
+            </article>
+            <article>
+                <h3>How to Convert RAR File into ZIP</h3>
+                <p>Convert your RAR files into ZIP to enjoy enhanced compatibility and easier file sharing. Our tool simplifies this conversion process. Find out more about <a href="/how-to-convert-rar-file-into-zip">converting RAR files into ZIP</a>.</p>
+            </article>
+            <article>
+                <h3>How to Convert RAR into ZIP</h3>
+                <p>Our tool allows you to convert RAR files into ZIP format quickly and easily. This conversion is ideal for improving file accessibility. Learn the steps to <a href="/how-to-convert-rar-into-zip">convert RAR into ZIP</a>.</p>
+            </article>
+            <article>
+                <h3>How to Make RAR into ZIP</h3>
+                <p>Transform your RAR files into ZIP format for better file management. Our converter ensures a smooth and efficient process. Discover how to <a href="/how-to-make-rar-into-zip">make RAR into ZIP</a>.</p>
+            </article>
+            <article>
+                <h3>How to Convert Folder into ZIP File</h3>
+                <p>Compress entire folders into a single ZIP file to save space and simplify file management. Our tool handles this efficiently. Learn how to <a href="/how-to-convert-folder-into-zip-file">convert folders into ZIP files</a>.</p>
+            </article>
+            <article>
+                <h3>How to Convert a File into ZIP</h3>
+                <p>Our tool makes it easy to convert any file into ZIP format. This helps in saving space and organizing your data. Explore the process of <a href="/how-to-convert-file-into-zip">converting files into ZIP</a>.</p>
+            </article>
+            <article>
+                <h3>How to Turn a PDF into a ZIP File</h3>
+                <p>Compress PDF documents into ZIP files for easier storage and sharing. Our tool ensures a straightforward conversion process. Discover how to <a href="/how-to-turn-pdf-into-zip-file">convert PDFs into ZIP</a>.</p>
+            </article>
+            <article>
+                <h3>How to Turn PDF into ZIP File</h3>
+                <p>Convert PDF files into ZIP format for efficient storage and management. Our tool simplifies this process. Learn how to <a href="/how-to-turn-pdf-into-zip">turn PDFs into ZIP files</a>.</p>
+            </article>
+            <article>
+                <h3>How to Make a RAR File into a ZIP</h3>
+                <p>Make your RAR files more accessible by converting them into ZIP format. Our tool ensures quick and reliable conversion. Learn the best way to <a href="/how-to-make-rar-file-into-zip">convert RAR files into ZIP</a>.</p>
+            </article>
+            <article>
+                <h3>How to Turn a RAR File into a ZIP</h3>
+                <p>Convert RAR files into ZIP format to improve compatibility and ease of use. Our tool handles this conversion efficiently. Find out how to <a href="/how-to-turn-rar-file-into-zip">turn RAR files into ZIP</a>.</p>
+            </article>
+        </section>
+      <section class="how-it-works">
+            <h2>How It Works - Convert Files and Folders to ZIP</h2>
+            <p>Welcome to File2zip, where converting your files and folders into ZIP format is made simple and efficient.</p>
+            <ol>
+                <li><strong>Click on the appropriate upload button</strong>: Start by selecting whether you want to upload individual files or entire folders. Use the "Upload Files" button for single files and "Upload Folders" for multiple files within a folder.</li>
+                <li><strong>Select your files or folders</strong>: Once you've clicked the upload button, choose the files or folders from your device that you want to convert into a ZIP archive.</li>
+                <li><strong>Download the ZIP file</strong>: After the upload is complete, our system will compress your selected files or folders into a ZIP file. Once processed, click the "Download ZIP" button to save the ZIP archive to your device.</li>
+            </ol>
+            <p>File2zip offers a straightforward solution for anyone needing to compress files or folders for easier storage, sharing, or archival purposes. With our user-friendly interface and efficient processing, converting files to ZIP has never been easier.</p>
+            <p>For any questions or feedback, please feel free to <a href="/contact">contact us</a>. We're here to help simplify your file management needs.</p>
+        </section>
+       <section class="about-us">
+            <h2>About Us - Simplifying File Compression</h2>
+            <img src="images/about-us.jpg" alt="About Us">
+            <p>At File2zip, we are dedicated to revolutionizing how you manage and compress your files. Our mission is to provide a simple, efficient, and user-friendly platform for converting files and folders into ZIP format.</p>
+            <p>Whether you're a professional managing large datasets or an individual looking to streamline file storage, File2zip is designed with you in mind. Our team understands the importance of accessibility and ease-of-use in file management solutions.</p>
+            <p>Founded in [Year], File2zip has quickly become a trusted name in the industry, serving thousands of users worldwide. Our commitment to innovation and customer satisfaction drives us to continually improve our platform and services.</p>
+            <p>For any inquiries or feedback, please reach out to us at <a href="/contact">info@example.com</a>. We value your input and are here to assist with your file compression needs.</p>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section contact">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@example.com</p>
+                    <p>Address: 123 Main Street, Anytown, USA</p>
+                </div>
+                <div class="footer-section keywords">
+                    <h3>Features</h3>
+                    <ul>
+                        <li><a href="#features">File into ZIP</a></li>
+                        <li><a href="#features">RAR into ZIP</a></li>
+                        <li><a href="#features">Compress Folder into ZIP</a></li>
+                        <li><a href="#features">Compress Folder into ZIP File</a></li>
+                        <li><a href="#features">Compress into ZIP</a></li>
+                        <li><a href="#features">Convert RAR into ZIP</a></li>
+                        <li><a href="#features">ZIP into PDF</a></li>
+                        <li><a href="#features">Convert File into ZIP</a></li>
+                        <li><a href="#features">Converting into ZIP File</a></li>
+                        <li><a href="#features">How to Turn a ZIP File into a PDF</a></li>
+                        <li><a href="#features">How to Convert ZIP File into PDF</a></li>
+                        <li><a href="#features">Convert ZIP into PDF</a></li>
+                        <li><a href="#features">How to Convert a ZIP File into a PDF</a></li>
+                        <li><a href="#features">How to Turn RAR Files into ZIP</a></li>
+                        <li><a href="#features">How to Turn RAR into ZIP</a></li>
+                        <li><a href="#features">How to Change RAR into ZIP</a></li>
+                        <li><a href="#features">How to Convert RAR File into ZIP</a></li>
+                        <li><a href="#features">How to Convert RAR into ZIP</a></li>
+                        <li><a href="#features">How to Make RAR into ZIP</a></li>
+                        <li><a href="#features">How to Convert Folder into ZIP File</a></li>
+                        <li><a href="#features">How to Convert a File into ZIP</a></li>
+                        <li><a href="#features">How to Turn a PDF into a ZIP File</a></li>
+                        <li><a href="#features">How to Turn PDF into ZIP File</a></li>
+                        <li><a href="#features">How to Make a RAR File into a ZIP</a></li>
+                        <li><a href="#features">How to Turn a RAR File into a ZIP</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 Your Company. All rights reserved.
+            </div>
+        </footer>
+        <section class="contact" id="contact">
+           
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
